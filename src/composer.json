@@ -1,0 +1,14 @@
+{
+    "autoload": {
+        "psr-4": {
+            "Classes\\": "_classes/",
+            "Models\\": "_models/",
+            "Core\\": "core/",
+            "App\\": "app/",
+            "Test\\" :"public/"
+        }
+    },
+    "require": {
+        "php-di/php-di": "^6.2"
+    }
+}
